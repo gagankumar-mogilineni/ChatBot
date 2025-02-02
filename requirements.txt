@@ -15,7 +15,6 @@ wordcloud
 faiss-cpu
 grpcio
 langchain-community
-confluence_reader
 
 # below also is required.uncomment as it is required.
 
