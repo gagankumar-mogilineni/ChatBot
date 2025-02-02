@@ -18,7 +18,8 @@ langchain-community
 
 # below also is required.uncomment as it is required.
 
-spacy
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
+python -m spacy download en_core_web_sm
+python -m spacy link en_core_web_sm en
+
 
 pdfkit
