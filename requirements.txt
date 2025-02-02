@@ -18,5 +18,5 @@ langchain-community
 
 # below also is required.uncomment as it is required.
 
-#python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_sm
 pdfkit
