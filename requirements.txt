@@ -1,3 +1,8 @@
+pip>=23.0
+setuptools>=65.0
+wheel>=0.38.4
+tiktoken
+setuptools-rust
 langchain
 PyPDF2==3.0.1
 python-dotenv==1.0.0
@@ -5,9 +10,8 @@ streamlit
 openai==0.27.6
 #faiss-cpu==1.7.4
 altair==4
-tiktoken
+#tiktoken==0.4.0
 streamlit_extras
-spacy
 google-generativeai
 langchain_google_genai
 nltk
@@ -15,11 +19,6 @@ wordcloud
 faiss-cpu
 grpcio
 langchain-community
-
-# below also is required.uncomment as it is required.
-
-python -m spacy download en_core_web_sm
-python -m spacy link en_core_web_sm en
-
-
 pdfkit
+spacy
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
