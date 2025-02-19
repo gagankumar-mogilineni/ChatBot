@@ -191,17 +191,6 @@ def main():
     #else:
         #st.info("Please upload a PDF or provide a Confluence link to proceed.")
 
-    
-
-    # # Check if the input is a Confluence page URL
-    # if user_question:
-    #     try:
-    #         if not is_valid_confluence_url(user_question):
-    #             raise ValueError("Invalid input. Please enter a valid Confluence page URL.")
-    #         else:
-    #             st.success("Valid Confluence page URL provided.")
-    #     except ValueError as e:
-    #         st.error(str(e))
 
     if st.button("Submit"):
         with st.spinner("Processing"):
